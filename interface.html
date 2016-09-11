@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+</head>
+<body>
+	<form action="proyecto1.php" method="POST">
+	<table border="0" width="50%" align="center">
+		<tr>
+			<td width="10%" align="center">
+			<h1>Calculadora de matrices</h1>
+				<table border="0" width="100%">
+					<tr> 
+						<td width="30%" align="center">
+							<label><h2>Matriz A:</h2></label> 
+							<table border="1"> 
+								<tr> 
+									<td><input type="text" name="num1A" placeholder="Numero 1"></td> 
+									<td><input type="text" name="num2A" placeholder="Numero 2"></td> 
+									<td><input type="text" name="num3A" placeholder="Numero 3"></td>
+								</tr> 
+								<tr> 
+									<td><input type="text" name="num4A" placeholder="Numero 4"></td> 
+									<td><input type="text" name="num5A" placeholder="Numero 5"></td> 
+									<td><input type="text" name="num6A" placeholder="Numero 6"></td> 
+								</tr>
+								<tr> 
+									<td><input type="text" name="num7A" placeholder="Numero 7"></td> 
+									<td><input type="text" name="num8A" placeholder="Numero 8"></td> 
+									<td><input type="text" name="num9A" placeholder="Numero 9"></td> 
+								</tr>  
+							</table><br>
+						</td> 
+						<td width="30%" align="center">
+							<label><h2>Matriz B:</h2></label>
+							<table border="1"> 
+								<tr> 
+									<td><input type="text" name="num1B" placeholder="Numero 1"></td> 
+									<td><input type="text" name="num2B" placeholder="Numero 2"></td> 
+									<td><input type="text" name="num3B" placeholder="Numero 3"></td> 
+								</tr> 
+								<tr> 
+									<td><input type="text" name="num4B" placeholder="Numero 4"></td>
+									<td><input type="text" name="num5B" placeholder="Numero 5"></td>
+									<td><input type="text" name="num6B" placeholder="Numero 6"></td>
+								</tr> 
+								<tr> 
+									<td><input type="text" name="num7B" placeholder="Numero 7"></td>
+									<td><input type="text" name="num8B" placeholder="Numero 8"></td>
+									<td><input type="text" name="num9B" placeholder="Numero 9"></td>
+								</tr> 
+							</table><br>
+						</td> 
+					</tr> 
+				</table>
+				<input type="text" name="numeroN" placeholder="Ingrese un numero">
+				<select name="operaciones" id="operacion">
+					<option value="Seleccion">Seleccione...</option>
+					<option value="Determinante">Determinante</option>
+					<option value="MatrizInversa">Matriz inversa</option>
+					<option value="MatrizTranspuesta">Matriz transpuesta</option>
+					<option value="Multiplicar">Multiplicar</option>
+					<option value="Elevar">Elevar</option>
+					<option value="SumarMatrices">Suma de matrices</option>
+					<option value="RestarMatrices">Resta de matrices</option>
+					<option value="MultiplicarMatrices">Multiplicación de matrices</option>
+				</select>
+				<input type="submit" name="enviar1" value="Enviar">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
